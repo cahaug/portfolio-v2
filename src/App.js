@@ -37,7 +37,7 @@ function App() {
   
   return (
     <div className="container">
-      
+
       <header className="nav">
         <h1 className="name">Cale A. Haug</h1>
         <a className="headerLink" href="#skill">Skills</a>
@@ -70,7 +70,12 @@ function App() {
           <label> Body:
             <textarea name="body"></textarea>
           </label>
-          <input type="submit" value="Send" />
+          <label> Submit:
+            <input type="submit" value="Send" />
+          </label>
+          <label> Clear Form:
+            <button type="reset">Reset</button>
+          </label>
         </form>
       </section>
     </div>

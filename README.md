@@ -1,3 +1,3 @@
 # Cale Haug's Portfolio
 
-Written in ReactJS
+Written in ReactJS and LESS

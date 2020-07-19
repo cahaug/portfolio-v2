@@ -1,40 +1,94 @@
 import React from 'react';
 import './App.css';
-import {} from './files'
+import pythonIMG from './files/pythonIMG.png' 
+import postgresIMG from './files/postgresqlIMG.png'
+import expressIMG from './files/expressIMG.png'
+import reduxIMG from './files/reduxIMG.png'
+import es6IMG from './files/es6IMG.png'
+import html5IMG from './files/html5IMG.png'
+import css3IMG from './files/css3IMG.png'
+import lessIMG from './files/lessIMG.png'
+import nodeIMG from './files/nodeIMG.png'
+import reactIMG from './files/reactIMG.jpg'
 
 function App() {
 
-  const skills = [
+  const skillsArray = [
     {
       language:"React.JS",
-      img: {},
+      image: reactIMG,
     }, 
     {
       language:"Node",
-      img: {},
+      image: nodeIMG,
     }, 
     {
       language:"Express",
-      img: {},
+      image: expressIMG,
     }, 
     {
       language:"PostgreSQL",
-      img: {},
+      image: postgresIMG,
     }, 
     {
       language:"Python3",
-      img: {},
+      image: pythonIMG,
     }, 
     {
       language:"Redux",
-      img: {},
+      image: reduxIMG,
     }, 
     {
-      language:"",
-      img: {},
+      language:"Javascript ES6+",
+      image: es6IMG,
     }, 
+    {
+      language:"HTML 5",
+      image: html5IMG,
+    },
+    {
+      language:"CSS 3",
+      image: css3IMG,
+    },
+    {
+      language:"LESS",
+      image: lessIMG,
+    },
   ]
   
+  const projectsArray = [
+    {
+      name:"",
+      projectIMG:"",
+      sampleURL:"",
+      description:""
+    },
+    {
+      name:"",
+      projectIMG:"",
+      sampleURL:"",
+      description:""
+    },
+    {
+      name:"",
+      projectIMG:"",
+      sampleURL:"",
+      description:""
+    },
+    {
+      name:"",
+      projectIMG:"",
+      sampleURL:"",
+      description:""
+    },
+    {
+      name:"",
+      projectIMG:"",
+      sampleURL:"",
+      description:""
+    },
+  ]
+
   return (
     <div className="container">
 
@@ -53,7 +107,14 @@ function App() {
 
       <section className="skills">
         <a name="skill"></a>
-        
+        {skillsArray.map((skill) => {
+          return (
+            <div className="individualSkill">
+              <img className="skillImage" src={skill.image} title={skill.language} alt={skill.language} />
+              <h4>{skill.language}</h4>
+            </div>
+          )
+        })}
       </section>
 
       <section className="projects">

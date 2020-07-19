@@ -1,0 +1,10 @@
+.individualSkill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  width: 15%;
+}
+.skillImage {
+  height: 15vh;
+}

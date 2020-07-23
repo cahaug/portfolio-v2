@@ -5,8 +5,8 @@
   justify-content: center;
   text-align: center;
   font-family: 'Oxygen', sans-serif;
-  overflow: hidden;
-  width: 100%;
+  width: 98%;
+  margin: 0 auto;
 }
 header {
   padding: 2vh;

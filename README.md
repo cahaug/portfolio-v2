@@ -1,2 +1,3 @@
-# portfolio-v2
- My Portfolio Page, Written in React.js
+# Cale Haug's Portfolio
+
+Written in ReactJS and LESS

@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+header {
+  padding: 2vh;
+  height: 8%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  border-bottom: 2px solid black;
+}
+header h1 {
+  padding-bottom: 2%;
+  font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
+}
+header a {
+  padding: 3%;
+  font-family: 'Bebas Neue', cursive;
+}
+.intro {
+  padding: 25vh 0;
+  width: 100%;
+  background-image: url("./files/bg.gif");
+}
+.introContainer {
+  background-color: whitesmoke;
+  padding: 3%;
+  width: 56%;
+  margin: 0 auto;
+}
+.intro h3 {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  width: 98%;
+  margin: 0 auto;
+}
+.skillContainer {
+  margin-top: 3%;
+}
+.skillContainer h2 {
+  padding-top: 2%;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  margin: 4%;
+  grid-column-start: 1;
+  grid-auto-rows: minmax(50px, auto);
+}
+.individualSkill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  width: auto;
+}
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.contactContainer {
+  width: 100%;
+  background-image: url("./files/bg.gif");
+}
+.contacts {
+  border: 2px solid black;
+  background-color: whitesmoke;
+  color: black;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+  margin: 2vh auto;
+}
+.contacts form {
+  width: 85%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contacts h3 {
+  padding-top: 2%;
+}
+.contacts label {
+  padding: 3%;
+  text-align: center;
+  width: 94%;
+  display: block;
+}
+.contacts textarea {
+  width: 90%;
+  margin: 3%;
+}
+.contacts input {
+  width: 90%;
+  margin: 3%;
+}
+.contacts .button {
+  width: 45%;
+  margin: 3%;
+}
+hr {
+  width: 72%;
+}
+.projectsContainer {
+  padding-top: 3%;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.individualProject {
+  flex: 1 1 200px;
+  margin: 2%;
+  border: 2px solid black;
+  border-radius: 2.5%;
+  padding: 2%;
+}
+.projectName {
+  padding-top: 2%;
+}

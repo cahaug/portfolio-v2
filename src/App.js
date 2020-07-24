@@ -83,7 +83,7 @@ function App() {
       name:"Blackball.co",
       projectIMG:blackballIMG,
       sampleURL:"https://blackball.co/",
-      stack:"React : Python/Flask/Express/PostgreSQL : : Netlify : Heroku",
+      stack:"React : Python/Flask Node/Express/PostgreSQL : : Netlify : Heroku",
       description:"An in-development blockchain solution to tracking law enforcement civil rights abuses.  Verified abuse of power complaints would be added to a blockchain, which may be freely searched by anyone. The idea is that a police department looking to hire new officers could search their applicant's name in the database to ensure they don't have histories of abusive behavior.  Alternatively, a civil rights attorney might search the arresting officers in a case, and be pointed to past of instances in which the arresting officers may have acted inappropriately. This could potentially provide compelling character evidence against an officer in support of a beleaguered civilian party.  A Blackball for the Blue Wall of Silence.",
       github:"https://github.com/cahaug/BlackBall"
     },

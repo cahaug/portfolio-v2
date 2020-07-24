@@ -83,7 +83,7 @@ function App() {
       name:"Blackball.co",
       projectIMG:blackballIMG,
       sampleURL:"https://blackball.co/",
-      stack:"Python/Flask, React, Node, PostgreSQL",
+      stack:"React : Python/Flask Node/Express/PostgreSQL : : Netlify : Heroku",
       description:"An in-development blockchain solution to tracking law enforcement civil rights abuses.  Verified abuse of power complaints would be added to a blockchain, which may be freely searched by anyone. The idea is that a police department looking to hire new officers could search their applicant's name in the database to ensure they don't have histories of abusive behavior.  Alternatively, a civil rights attorney might search the arresting officers in a case, and be pointed to past of instances in which the arresting officers may have acted inappropriately. This could potentially provide compelling character evidence against an officer in support of a beleaguered civilian party.  A Blackball for the Blue Wall of Silence.",
       github:"https://github.com/cahaug/BlackBall"
     },
@@ -136,33 +136,12 @@ function App() {
               </div>
             )
           })}
-          <a name="contact"></a>
+          <a name="project"></a>
         </div>
       </section>
 
-      <section className="contactContainer">
-        <div className="contacts">
-          <h3>Want to Talk Web Development?</h3>
-          <h3>Contact Me!</h3>
-          <br /><hr />
-          <form action="mailto:calehaug@live.com" method="GET">
-            <label>Subject: <br />
-              <input name="subject" type="text" />
-            </label>
-            <label>Message: <br />
-              <textarea name="body"></textarea>
-            </label>
-            <label>Submit: <br />
-              <input className="button" type="submit" value="Send" />
-            </label>
-            <label>Clear Form: <br /> <a name="project"></a>
-              <button className="button" type="reset">Reset</button>
-            </label>
-          </form>
-        </div>
-      </section>
-
-
+      <hr /><br />
+      
       <section className="projectsContainer">
         <h3>Completed and Ongoing Projects:</h3>
         <div className="projects">
@@ -187,7 +166,29 @@ function App() {
           })}
         </div>
       </section>
-
+     
+      <section className="contactContainer">
+          <a name="contact"></a>
+        <div className="contacts">
+          <h3>Want to Talk Web Development?</h3>
+          <h3>Contact Me!</h3>
+          <br /><hr /> 
+          <form action="mailto:calehaug@live.com" method="GET">
+            <label>Subject: <br />
+              <input name="subject" type="text" />
+            </label>
+            <label>Message: <br />
+              <textarea name="body"></textarea>
+            </label>
+            <label>Submit: <br />
+              <input className="button" type="submit" value="Send" />
+            </label>
+            <label>Clear Form: <br /> 
+              <button className="button" type="reset">Reset</button>
+            </label>
+          </form>
+        </div>
+      </section>
     </div>
   );
 }

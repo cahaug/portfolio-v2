@@ -160,7 +160,7 @@ function App() {
                 <hr />
                 <h6 className="projectDescription">{project.description}</h6>
                 <hr />
-                <a href={project.github} alt={project.github}><button>View on Github</button></a>
+                <a href={project.github} alt={project.github}><button>View on GitHub</button></a>
               </div>
             )
           })}
@@ -187,6 +187,14 @@ function App() {
               <button className="button" type="reset">Reset</button>
             </label>
           </form>
+          <hr /><br />
+          <h3>External Links:</h3>
+          <div className="socialLinks">
+            <a href="https://www.linkedin.com/in/calehaug/" alt="My LinkedIn"><h4>LinkedIn</h4></a>
+            <a href="https://twitter.com/Cale_Haug" alt="My Twitter"><h4>Twitter</h4></a>
+            <a href="https://link-in.bio/cah" alt="My Link In Bio"><h4>Link-In.Bio</h4></a>
+            <a href="https://github.com/cahaug" alt="My GitHub"><h4>GitHub</h4></a>
+          </div>
         </div>
       </section>
     </div>

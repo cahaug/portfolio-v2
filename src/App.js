@@ -77,7 +77,7 @@ function App() {
       sampleURL:"https://link-in.bio/",
       stack:"React/Redux : Node/Express/PostgreSQL : : Netlify : Heroku",
       description:"I solely designed and coded this project to address the less than optimal strategies employed by companies, social media marketers, and other internet users in linking, tracking & monetizing content.  Link-In.bio is a website where someone can register to create their own publicly hosted pages of lists of hyperlinks with and without photos for use with social media accounts.  Pageviews of a list are recorded, and clickthroughs data from a link is scraped by the server.  User registration is temporarily halted as the Stripe Subscription model is built out, and additional options like multiple lists, user-specific fonts, and color-customization options are yet in development.  The plan is to grow this idea into a full-fledged, monetized SaaS company.",
-      github:""
+      github:"https://github.com/cahaug/link-in.bio"
     },
     {
       name:"Blackball.co",
@@ -85,7 +85,7 @@ function App() {
       sampleURL:"https://blackball.co/",
       stack:"Python/Flask, React, Node, PostgreSQL",
       description:"An in-development blockchain solution to tracking law enforcement civil rights abuses.  Verified abuse of power complaints would be added to a blockchain, which may be freely searched by anyone. The idea is that a police department looking to hire new officers could search their applicant's name in the database to ensure they don't have histories of abusive behavior.  Alternatively, a civil rights attorney might search the arresting officers in a case, and be pointed to past of instances in which the arresting officers may have acted inappropriately. This could potentially provide compelling character evidence against an officer in support of a beleaguered civilian party.  A Blackball for the Blue Wall of Silence.",
-      github:""
+      github:"https://github.com/cahaug/BlackBall"
     },
     {
       name:"Wo-Wo: Wax On Wax Off",
@@ -93,7 +93,7 @@ function App() {
       sampleURL:"https://wowo-app2.netlify.app/",
       stack:"React/Redux : Node/Express/PostgreSQL : : Netlify : Heroku",
       description:"A Lambda School Project. Given the directive to build the Uber of Car Washing, a team of five implemented an action plan, developed release canvases, and built Wo-Wo from nothing.  I wrote the entire backend on this project so I am proud of that but I am most proud of my instant quote generator, which has over 1000 vehicles to choose from, all with individually calculated prices. Check it out on the homepage, under the Instant Quote Button.",
-      github:""
+      github:"https://github.com/cahaug/wowo-be"
     },
     {
       name:"Giving-Tuesday.net",
@@ -101,7 +101,7 @@ function App() {
       sampleURL:"https://giving-tuesday.net/",
       stack:"Squarespace Builder",
       description:"A work-in-progress website designed to inspire people to donate to reputable and efficient charitable organizations that are near and dear to my heart. I built this for Giving-Tuesday 2018 but haven't got around to rewriting it yet, since really learning how to code.  Creating this website inspired me to look into web development and coding again for the first time since high school.",
-      github:""
+      github:"https://github.com/cahaug/portfolio-v2"
     },
   ]
 
@@ -180,6 +180,8 @@ function App() {
                 <h5 className="projectURL"><a href={project.sampleURL} alt={project.name}>{project.sampleURL}</a></h5>
                 <hr />
                 <h6 className="projectDescription">{project.description}</h6>
+                <hr />
+                <a href={project.github} alt={project.github}><button>View on Github</button></a>
               </div>
             )
           })}

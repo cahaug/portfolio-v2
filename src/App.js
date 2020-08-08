@@ -74,7 +74,7 @@ function App() {
     {
       name:"Link-In.Bio",
       projectIMG:libIMG,
-      sampleURL:"https://link-in.bio/8",
+      sampleURL:"https://link-in.bio/cah",
       stack:"React/Redux | Node/Express/PostgreSQL | Netlify | Heroku",
       description:"• I solely designed and coded this project to address the less than optimal strategies employed by companies, social media marketers, and other internet users in linking, tracking & monetizing content.   \n \n• Link-In.bio is a website where someone can register to create their own publicly hosted pages of lists of hyperlinks with and without photos for use with social media accounts.  \n \n• Pageviews of a list are recorded, and clickthroughs data from a link is scraped by the server.  \n \n• User registration is temporarily halted as the Stripe Subscription model is built out, and additional options like multiple lists, user-specific fonts, and color-customization options are yet in development.  \n \n• The plan is to grow this idea into a full-fledged, monetized SaaS company.",
       github:"https://github.com/cahaug/link-in.bio"

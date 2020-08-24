@@ -170,3 +170,7 @@ hr {
   padding: 1%;
   width: 80px;
 }
+.lambdaIMG {
+  max-width: 250px;
+  width: 100%;
+}

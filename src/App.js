@@ -16,6 +16,7 @@ import wowoIMG from './files/wowoIMG.jpg'
 import blackballIMG from './files/blackballIMG.png'
 import libIMG from './files/libIMG.png'
 import givingTuesdayIMG from './files/givingTuesdayIMG.PNG'
+import lambdaIMG from './files/lambda.png'
 
 function App() {
 
@@ -188,6 +189,8 @@ function App() {
             </label>
           </form>
           <hr /><br />
+          <div><a href="https://www.youracclaim.com/badges/e5aae76f-6c66-43b9-a275-a3bd1ea324ac/public_url"><img className="lambdaIMG" src={lambdaIMG} alt="View my Badge on Acclaim by Credly" title="View my Badge on Acclaim by Credly" /></a></div>
+          
           <h3>External Links:</h3>
           <div className="socialLinks">
             <a href="https://www.linkedin.com/in/calehaug/" alt="My LinkedIn"><h4>LinkedIn</h4></a>

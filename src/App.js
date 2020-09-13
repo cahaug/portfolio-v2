@@ -110,7 +110,7 @@ function App() {
     <div className="container">
 
       <header className="nav">
-        <h1 className="name">Cale A. Haug</h1>
+        <h1 className="name">Cale A. Haug, FSD</h1>
         <a className="headerLink" href="#skill">Skills</a>
         <a className="headerLink" href="#project">Projects</a>
         <a className="headerLink" href="#contact">Contact</a>
@@ -119,8 +119,9 @@ function App() {
       <section className="intro">
         <div className="introContainer">
           <h3>Hello There, I'm Cale.</h3>
+          <br />
           <h3>I'm a Full Stack Developer.</h3>
-          <h3>🌵🤠Currently in: Scottsdale, Arizona 🤠🌵</h3>
+          {/* <h3>🌵🤠Currently in: Scottsdale, Arizona 🤠🌵</h3> */}
         </div>
         <a name="skill"></a>
       </section>

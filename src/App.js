@@ -196,7 +196,7 @@ function App() {
           <div className="socialLinks">
             <a href="https://www.linkedin.com/in/calehaug/" alt="My LinkedIn"><h4>LinkedIn</h4></a>
             <a href="https://twitter.com/Cale_Haug" alt="My Twitter"><h4>Twitter</h4></a>
-            <a href="https://this-links.to/me" alt="My Link In Bio"><h4>Link-In.Bio</h4></a>
+            <a href="https://7zz.ch/💻" alt="My Link In Bio"><h4>Link-In.Bio</h4></a>
             <a href="https://github.com/cahaug" alt="My GitHub"><h4>GitHub</h4></a>
           </div>
           <hr /><br />

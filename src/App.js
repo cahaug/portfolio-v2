@@ -75,8 +75,8 @@ function App() {
     {
       name:"Link-In.Bio",
       projectIMG:libIMG,
-      sampleURL:"https://link-in.bio/cah",
-      stack:"React/Redux | Node/Express/PostgreSQL | Netlify | Heroku",
+      sampleURL:"https://link-in.bio/",
+      stack:"[redacted]",
       description:"• I solely designed and coded this project to address the less than optimal strategies employed by companies, social media marketers, and other internet users in linking, tracking & monetizing content.   \n \n• Link-In.bio is a website where someone can register to create their own publicly hosted pages of lists of hyperlinks with and without photos for use with social media accounts.  \n \n• Pageviews of a list are recorded, and clickthroughs data from a link is scraped by the server.  \n \n• User registration is temporarily halted as the Stripe Subscription model is built out, and additional options like multiple lists, user-specific fonts, and color-customization options are yet in development.  \n \n• The plan is to grow this idea into a full-fledged, monetized SaaS company.",
       github:"https://github.com/cahaug/link-in.bio"
     },
@@ -196,7 +196,7 @@ function App() {
           <div className="socialLinks">
             <a href="https://www.linkedin.com/in/calehaug/" alt="My LinkedIn"><h4>LinkedIn</h4></a>
             <a href="https://twitter.com/Cale_Haug" alt="My Twitter"><h4>Twitter</h4></a>
-            <a href="https://link-in.bio/cah" alt="My Link In Bio"><h4>Link-In.Bio</h4></a>
+            <a href="https://7zz.ch/💻" alt="My Link In Bio"><h4>Link-In.Bio</h4></a>
             <a href="https://github.com/cahaug" alt="My GitHub"><h4>GitHub</h4></a>
           </div>
           <hr /><br />
